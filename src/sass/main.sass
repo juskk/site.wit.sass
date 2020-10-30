@@ -1,0 +1,356 @@
+$main_orange: #F7A804
+$main_blue_dark: #0E74A5
+
+p, a, h1
+    font-family: 'Open Sans', sans-serif
+
+a, p 
+    color: white
+    
+/*header DOWN----------------------------------------------------*/
+
+
+/*header_up DOWN*/
+
+.header_up
+
+    background-color: $main_blue_dark
+    color: white
+    padding: 3px 0
+    font-size: 11px
+
+    .header_up_line
+             display: block
+             background: #b6b6b6
+             padding: 10px .1px
+             margin: 0 7px
+             
+
+    .header_up_left 
+
+        .header_up_left_fa
+            padding-right: 10px
+
+        .header_up_left_fa:hover .header_up_left_fa a 
+            color: $main_orange
+
+        .header_up_left_fa a
+            color: $main_orange
+
+        .header_up_text:hover .header_up_text_hover 
+            text-decoration: none
+
+        .header_up_text
+            padding: 0 7px
+            text-transform: uppercase
+            color: white
+
+        .header_up_text_hover
+            color: white
+
+        
+
+    .header_up_right
+
+        .for_pdd1
+            padding-right: 10px
+
+        .for_pdd2
+            padding-left: 10px
+
+        .header_up_right_text
+            padding-left: 10px
+            font-size: 11px
+            text-transform: uppercase
+            padding-top: 17px
+
+    @media screen and (max-width: 767px)
+        padding-top: 15px
+
+    @media screen and (max-width: 400px)
+        .header_up_line 
+            display: none
+
+    @media screen and (max-width: 330px)
+        .header_up_right
+            display: flex
+            flex-direction: column
+
+        .for_pdd2
+            margin-top: -30px
+            margin-left: -16px
+            display: flex
+
+
+/*header_up UP*/
+
+/*header_down DOWN*/
+
+.header_down 
+    padding-top: 40px
+    padding-bottom: 40px
+
+    .header_down_ls
+
+
+    .hdls_hover:hover .hdls_hover_item
+        text-decoration: none
+
+    
+        
+    
+    .header_down_ls_span1
+        font-family: 'Lora', serif
+        color: $main_blue_dark
+        font-size: 55px
+    .header_down_ls_span2
+        font-family: 'Lora', serif
+        color: $main_orange
+        font-size: 30px
+        margin-left: -5px
+    
+    .header_down_rs 
+            margin-top: 15px
+
+    .header_down_rs_i1
+        display: inline-block
+        border: .1px solid #d3d3d3
+        padding: 0 19px
+        padding-top: 14px
+        padding-bottom: 12px
+        border-radius: 50%
+
+        i 
+            padding-top: 3px
+            color: #3b3b3b
+
+    .hdrs_4margin
+        margin-left: 80px
+
+    .header_down_rs_i2
+        display: inline-block
+        border: .1px solid #d3d3d3
+        padding: 0 26px
+        padding-top: 15px
+        padding-bottom: 13px
+        border-radius: 50%
+
+        i 
+            padding-top: 3px
+            color: #3b3b3b
+
+    .header_down_rs_text 
+        margin-left: 20px
+
+    .header_down_rs_text p
+        color: black
+        font-size: 15px
+        
+
+    .header_down_rs_text_main
+        margin-top: 10px
+
+    .header_down_rs_text_info   
+        margin-top: -17px
+    
+    @media screen and ( max-width:767px  )
+        .header_down_ls
+            margin-bottom: 10px
+
+        .hdrs_4margin
+            margin-left: 0
+
+        .header_down_rs_item
+            margin-bottom: 50px
+
+    @media screen and (min-width: 768px) and ( max-width: 991px )
+        .hdrs_4margin
+            margin-left: 30px
+
+        .header_down_rs 
+            margin-top: 35px
+
+    @media screen and ( min-width: 992px) and (max-width: 1199px)
+        .header_down_rs 
+            margin-top: 35px
+    
+    @media screen and ( max-width: 575px )
+        .header_down_inside
+             margin-left: 30px
+        
+       
+/*header_down UP*/
+
+
+/*header menu DOWN*/
+.header_menu
+
+    .header_menu_inside
+        
+        font-size: 14px
+
+        
+    .header_menu_div_hover1:hover .header_menu_div1
+        text-decoration: none
+        color: $main_blue_dark
+    
+
+    .header_menu_div1 
+        display: inline-block
+        background: $main_orange
+        padding: 17px 22px
+        color: $main_blue_dark
+
+
+
+
+
+
+
+    .header_menu_div_hover2:hover .header_menu_div2
+        text-decoration: none
+        color: $main_blue_dark
+    
+
+    .header_menu_div2 
+        display: inline-block
+        background: $main_orange
+        padding: 17px 22px
+        color: white
+        transition: color .2s linear
+        transition: display 1s linear
+    
+    .header_menu_div2_links_item_a
+        
+
+    .header_menu_div2_links_item_a
+        display: none
+        transition: opacity .2s linear
+
+    .header_menu_div_hover2:hover .header_menu_div2_links_item_a
+        position: absolute
+        display: inline-block
+        border-top: .1px solid white
+        background: $main_orange
+        padding: 8px 0
+        padding-left: 28px
+        width: 180px
+        color: white
+        opacity: .6
+
+    .header_menu_div_hover2:hover .hm_margin
+        margin-top: 37px
+        
+
+    .header_menu_div2_links_item:hover .header_menu_div2_links_item_a
+        opacity: 1
+        color: $main_blue_dark
+        text-decoration: none
+        
+
+
+    
+
+
+
+
+
+
+
+
+
+    .header_menu_div_hover3:hover .header_menu_div3
+        text-decoration: none
+        color: $main_blue_dark
+    
+
+    .header_menu_div3 
+        display: inline-block
+        background: $main_orange
+        padding: 17px 22px
+        color: white
+        transition: color .2s linear
+        transition: display 1s linear
+    
+    .header_menu_div3_links_item_a
+        
+
+    .header_menu_div3_links_item_a
+        display: none
+        transition: opacity .2s linear
+
+    .header_menu_div_hover3:hover .header_menu_div3_links_item_a
+        position: absolute
+        display: inline-block
+        border-top: .1px solid white
+        background: $main_orange
+        padding: 8px 0
+        padding-left: 28px
+        width: 180px
+        color: white
+        opacity: .6
+
+    .header_menu_div_hover3:hover .hm_margin
+        margin-top: 37px
+        
+
+    .header_menu_div3_links_item:hover .header_menu_div3_links_item_a
+        opacity: 1
+        color: $main_blue_dark
+        text-decoration: none
+        
+    .level3_item
+        display: none
+
+    .level3_div
+        position: absolute
+
+    .header_menu_div3_links_item:hover .level3_item
+        position: absolute
+        display: inline-block
+        border-top: .1px solid white
+        background: $main_orange
+        padding: 8px 0
+        padding-left: 28px
+        width: 180px
+        color: white
+        opacity: .6
+    
+    .header_menu_div3_links_item:hover .level3_div
+        margin-left: 90px
+
+    .header_menu_div3_links_item:hover .hm_margin2
+        margin-top: 74px
+
+    .lvl3_div1:hover .lvl3_hover1
+        text-decoration: none
+        color: $main_blue_dark
+        opacity: 1
+        transition: opacity .2s linear
+
+    .lvl3_div2:hover .lvl3_hover2
+        text-decoration: none
+        color: $main_blue_dark
+        opacity: 1
+        transition: opacity .2s linear
+
+    .lvl3_div3:hover .lvl3_hover3
+        text-decoration: none
+        color: $main_blue_dark
+        opacity: 1
+        transition: opacity .2s linear
+    
+
+
+
+
+    
+        
+    
+/*header menu UP*/
+            
+
+/*header UP---------------------------------------------------*/
+
+          
+
