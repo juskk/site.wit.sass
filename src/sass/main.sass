@@ -185,10 +185,14 @@ a, p
 /*header menu DOWN*/
 .header_menu
 
+    max-width: 100%
+
     .header_menu_inside
         
         font-size: 14px
-
+        background: $main_orange
+        height: 55px
+        max-width: 100%
         
     .header_menu_div_hover1:hover .header_menu_div1
         text-decoration: none
@@ -340,6 +344,49 @@ a, p
         opacity: 1
         transition: opacity .2s linear
     
+
+
+
+    .header_menu_div_hover4:hover .header_menu_div4
+        text-decoration: none
+        color: $main_blue_dark
+    
+
+    .header_menu_div4
+        display: inline-block
+        background: $main_orange
+        padding: 17px 22px
+        color: white
+        text-transform: uppercase
+
+    
+
+    .header_menu_media
+        visibility: hidden
+        background-color: $main_orange
+        height: 40px
+    
+    .hmm_div
+        display: inline-block
+        background: white
+        border: 1px solid black
+        height: 30px
+        max-width: 100%
+       
+
+
+    @media screen and ( max-width: 991px )
+        .header_menu_inside
+            visibility: hidden
+            
+
+     
+    
+         
+
+   
+        
+        
 
 
 
